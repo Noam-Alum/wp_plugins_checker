@@ -2,7 +2,7 @@
 domainname="$1"
 
 if [ -z "$(echo $domainname)" ]; then
-        echo -e "\033[1;92mCorrect usage:\033[0m"" curl -Ls 'ncode.codes/NF'|bash -s https://yourdomain.com"
+        echo -e "\033[1;92mCorrect usage:\033[0m"" curl -Ls 'alum.sh/NF'|bash -s https://yourdomain.com"
 else
 if [ -z "$(find . -type d -name wp-content)" ]; then
         echo -e "ERROR: ""\033[1;31mWordpress installation was not detected.\033[0m"
@@ -144,7 +144,7 @@ else
                         echo ""
                 fi
         else
-                echo -e "\033[1;92mCorrect usage:\033[0m"" curl -Ls 'ncode.codes/NF'|bash -s https://yourdomain.com"
+                echo -e "\033[1;92mCorrect usage:\033[0m"" curl -Ls 'alum.sh/NF'|bash -s https://yourdomain.com"
         fi
 fi
 fi
