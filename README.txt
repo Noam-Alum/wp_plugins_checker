@@ -5,7 +5,7 @@ This script automates the tedious task of identifying which plugin is causing a 
 plugins in the plugins folder and checking which half contains the problematic plugin, until you are left with the one that is causing the problem. With this script, each plugin is checked individually, and it can even
 work when there are multiple plugins causing a 500 error.
 
-Run "curl -Ls 'ncode.codes/NF'|bash -s https://example.tld" to use script
+Run "curl -Ls 'alum.sh/NF'|bash -s https://example.tld" to use script
 
 ** NOTE - IM STILL TRYING TO FIGURE OUT HOW TO CHECK IF SOMEONE IS IN THE ADMIN PANEL SO THERE IS NO CHANCE OF ALL PLUGINS BEING TURNED OFF **
 
